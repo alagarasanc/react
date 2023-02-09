@@ -1,0 +1,11 @@
+
+
+.list_item{
+    background-color: black;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    width: 75%;
+    padding: .5rem;
+    margin:auto ;
+    border-radius: 1.5rem;
+}
+

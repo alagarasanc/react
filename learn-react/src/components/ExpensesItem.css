@@ -1,0 +1,35 @@
+
+
+.Item {
+    display: flex;
+    margin: 2rem ;
+    padding: 1rem;
+    font-size: 2rem;
+    justify-content: space-around;
+    background-color: grey;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    height: 6rem;
+    flex-wrap: wrap;
+}
+.date{
+    align-self: center;
+}
+
+.description{
+    color: antiquewhite;
+    flex-grow: 1;
+    padding-left: 3rem;
+    align-self: center;
+}
+
+.rate {
+    background-color: rgb(64, 135, 241);
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    align-self: center;
+}
+
+
+

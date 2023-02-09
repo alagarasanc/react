@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test ride</title>
+    <link rel="shortcut icon" href="./icon/icons8-dirt-bike-50.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Book for free test ride</h1>
+    <form action="./end.html">
+        <label for="full_name">Name:</label>
+        <input type="text" id="full_name" minlength="4" maxlength="20" placeholder="Name*" name="name"><br><br>
+        <label for="mail">Email: </label>
+        <input type="email" id="mail" placeholder="Email*" name="email"><br><br>
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" placeholder="Pincode*" name="pincode"><br><br>
+        <label >Booked Hunter:</label>
+        <label for="yes">Yes:</label>
+        <input type="radio" id="yes" name="booking" value="yes">
+        <label for="no">No:</label>
+        <input type="radio" id="no" name="booking" value="no"><br><br>
+        <label for="varient">Select varient:</label>
+        <select name="varient" id="varient">
+            <option value="a">Retro</option>
+            <option value="b">Metro</option>
+        </select><br><br>   
+        <label for="feedback">what's your feel?:</label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Feeling when see hunter"></textarea><br><br>
+
+
+        <button type="submit"> Test Ride Now</button>
+    </form>
+    
+</body>
+</html>

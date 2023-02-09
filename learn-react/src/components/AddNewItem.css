@@ -1,0 +1,48 @@
+
+.add_item{
+    background-color: rgb(112, 46, 143);
+    margin: 2rem auto;
+    width: 75%;   
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+}
+
+.item_form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.item_submit{
+    margin-top: 1rem;
+    margin-left: 90%;
+}
+
+button{
+    width: 4rem;
+    padding: .1rem;
+    border-radius: 0.4rem;
+    background-color: rgb(64, 135, 241);;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: .2rem;
+}
+
+.new_button {
+    width: 6rem;
+    margin-left: 40%;
+}
+
+.empty{
+    background-color: rgb(245, 126, 126);
+} 
+
+p{
+    color: white;
+}
